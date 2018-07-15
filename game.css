@@ -1,0 +1,75 @@
+body
+{
+	margin: 0;
+background: #232323;
+}
+button
+{
+	font-family: 'Comfortaa', cursive;
+	border: none;
+	height: 30px;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+}
+
+h1
+{
+	font-weight: normal;
+	text-align: center;
+	color: white;
+	background: steelblue;
+	margin: 0;
+	font-family: 'Comfortaa', cursive;
+	padding: 20px 0;
+}
+
+#container
+{
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 20px 0;
+}
+
+.circle
+{
+	width: 30%;
+	background-color: red;
+	padding-bottom:30%;
+	float:left;
+	margin: 1.66%;
+	border-radius: 50%;
+	transition: background 0.5s;
+}
+
+#box
+{
+	color: black;
+	height: 30px;
+	background: white;
+	text-align: center;
+	margin: 0;
+	font-family: 'Comfortaa', cursive;
+}
+button:hover
+{
+	color: white;
+	background-color: steelblue;
+}
+
+.selected
+{
+	background: steelblue;
+}
+
+#choosedColor
+{
+	font-size: 130%;
+}
+
+#status
+{
+	display: inline-block;
+	width: 20%;
+}
